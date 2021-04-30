@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 function VideoPlayer(props) {
     let { id } = useParams();
     return (
-        <div className="container-fluid text-center">
+        <div className="container-fluid">
             <br></br>
             {
                 {
